@@ -7,8 +7,8 @@ Library  SeleniumLibrary
 Cambiar divisa
     Open browser    https://www.phptravels.net/   Chrome
     Sleep   3s
-    Click Element   id:dropdownLangauge
+    Click Element   id:dropdownCurrency
     Sleep   3s
-    Click Element   id:es
+    Click Element   link:EUR
     Sleep   3s
     close browser
